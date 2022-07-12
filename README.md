@@ -13,8 +13,7 @@
   <img align="center" alt="juno-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="juno-wordprass" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" />
   <img align="center" alt="juno-mysql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />  
-  <img align="center" alt="juno-Extjs" height="30" width="40" src="https://w7.pngwing.com/pngs/676/789/png-transparent-ext-js-modx-javascript-software-framework-world-wide-web-blue-logo-web-hosting-service.png" />  
-</div>
+
   
   ##
   
