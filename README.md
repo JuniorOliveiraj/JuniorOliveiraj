@@ -24,4 +24,5 @@
  <a href="[https://discord.gg/wagxzStdcR](https://discord.gg/bfHYTyHx)" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:junioroliveira.belem@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
       <a href="https://www.linkedin.com/in/junior-oliveira-ba22381a3/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+      <a href="https://porifolio.vercel.app/" target="_blank"><img src="https://img.shields.io/pypi/wheel/YES?label=PORTIFOLIO&style=for-the-badge" target="_blank"></a>
 </div>
