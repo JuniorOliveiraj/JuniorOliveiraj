@@ -27,4 +27,4 @@
       <a href="https://porifolio.vercel.app/" target="_blank"><img src="https://img.shields.io/pypi/wheel/YES?label=PORTIFOLIO&style=for-the-badge" target="_blank"></a>
 </div>
   
-  ![snake gif](https://github.com/Formandodev/Formandodev/blob/output/github-contribution-grid-snake.svg)
+  ![snake gif](https://github.com/JuniorOliveiraj/JuniorOliveiraj/blob/output/github-contribution-grid-snake.svg)
