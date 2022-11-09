@@ -8,7 +8,7 @@
 </div>-->
   <div style="display: inline_block"><br>
  <a href="https://github.com/JuniorOliveiraj/Front-End"> <img align="center" alt="juno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
- <a href="https://github.com/JuniorOliveiraj"> <img align="center" alt="juno-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
+ <a href="https://github.com/JuniorOliveiraj/canaa"> <img align="center" alt="juno-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
   <a href="https://github.com/JuniorOliveiraj/Front-End"><img align="center" alt="juno-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
   <a href="https://github.com/JuniorOliveiraj/Front-End"><img align="center" alt="juno-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
   <a href="https://github.com/JuniorOliveiraj"><img align="center" alt="juno-wordprass" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" /></a>
