@@ -28,3 +28,4 @@
 </div>
   
 
+![snake gif](https://github.com/JuniorOliveiraj/JuniorOliveiraj/blob/output/github-contribution-grid-snake.svg)
