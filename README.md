@@ -5,7 +5,7 @@
 - 🤔 Explorando novas tecnologias e desenvolvendo soluções de software.
 - 🎓 Formado em analyse e desenvolvimento de sistemas.
 - 💼 Trabalhando como full stack developer na Benner Sistemas.
-- 🌱 Aprendendo mais sobre C$, .NET, React e Flutter.
+- 🌱 Aprendendo mais sobre C#, .NET, React e Flutter.
 
 ## Minhas Skills
 
