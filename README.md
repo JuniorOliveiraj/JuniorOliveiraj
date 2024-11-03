@@ -1,30 +1,49 @@
-### Ola eu sou junior oliveira 👋 
-- 🕑 stou estudando reack   .                                     -
-- 🎓estou trabalhando como analista de sistenas
-<!--<div align="center">
-  <a href="https://github.com/JuniorOliveiraj">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JuniorOliveiraj&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JuniorOliveiraj&layout=compact&langs_count=7&theme=dracula"/>
-</div>-->
-  <div style="display: inline_block"><br>
- <a href="https://github.com/JuniorOliveiraj/Front-End"> <img align="center" alt="juno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
- <a href="https://github.com/JuniorOliveiraj/canaa"> <img align="center" alt="juno-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
-  <a href="https://github.com/JuniorOliveiraj/Front-End"><img align="center" alt="juno-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
-  <a href="https://github.com/JuniorOliveiraj/Front-End"><img align="center" alt="juno-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
-  <a href="https://github.com/JuniorOliveiraj"><img align="center" alt="juno-wordprass" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" /></a>
- <a href="https://github.com/JuniorOliveiraj"> <img align="center" alt="juno-mysql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />  </a>
- <a href="https://github.com/JuniorOliveiraj"> <img align="center" alt="juno-ExtJs" height="30" width="40" src="https://w7.pngwing.com/pngs/676/789/png-transparent-ext-js-modx-javascript-software-framework-world-wide-web-blue-logo-web-hosting-service.png" />  </a>
+![](https://komarev.com/ghpvc/?JuniorOliveiraj=iuricode&color=006bed)
 
-  
-  ##
-  
-  <div> 
+## Sobre mim
 
-  <a href="https://www.instagram.com/junyor_oliveiraj/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href="[https://discord.gg/wagxzStdcR](https://discord.gg/bfHYTyHx)" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:junioroliveira.belem@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-      <a href="https://www.linkedin.com/in/junior-oliveira-ba22381a3/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-      <a href="https://canaa.vercel.app" target="_blank"><img src="https://img.shields.io/pypi/wheel/YES?label=PORTIFOLIO&style=for-the-badge" target="_blank"></a>
-</div>
-  
-![snake gif](https://github.com/JuniorOliveiraj/JuniorOliveiraj/blob/output/github-contribution-grid-snake.svg)
+- 🤔 Explorando novas tecnologias e desenvolvendo soluções de software.
+- 🎓 Formadoem analyse e desenvolvimento de sistemas.
+- 💼 Trabalhando como full stack developer na Benner Sistemas.
+- 🌱 Aprendendo mais sobre C$, .NET, React e Flutter.
+
+## Minhas Skills
+
+**Aplicações e dados**
+
+![C#](https://img.shields.io/badge/-C%23-333333?style=flat&logo=csharp&logoColor=007ACC)
+![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter)
+![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+
+**Utilidades**
+
+![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
+![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
+
+**DevOps**
+
+![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
+![Travis](https://img.shields.io/badge/-Travis-333333?style=flat&logo=travis)
+
+**Ferramentas de desenvolvimento**
+
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![Visual Studio](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
+![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
+![Adobe XD](https://img.shields.io/badge/-Adobe%20XD-333333?style=flat&logo=adobe-xd&logoColor=007ACC)
+
+<br/>
+
+
+
+## Onde me encontrar
+
+[![Linkedin](https://img.shields.io/badge/-Junior%20Oliveira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=JuniorOliveiraj)](https://www.linkedin.com/in/junior-oliveira-ba22381a3/)
+[![Gmail Badge](https://img.shields.io/badge/-junioroliveira.belem@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:junioroliveira.belem@gmail.com)
+[![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/JuniorOliveiraj)
