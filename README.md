@@ -48,10 +48,6 @@
 [![Gmail Badge](https://img.shields.io/badge/-junioroliveira.belem@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:junioroliveira.belem@gmail.com)
 [![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/JuniorOliveiraj)
 
-<br/>
-
-![snake gif](https://github.com/JuniorOliveiraj/JuniorOliveiraj/blob/output/github-contribution-grid-snake.svg)
-
 
 <picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake-dark.svg">
