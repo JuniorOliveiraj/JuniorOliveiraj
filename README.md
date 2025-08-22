@@ -12,6 +12,7 @@
 **Aplicações e dados**
 
 ![C#](https://img.shields.io/badge/-C%23-333333?style=flat&logo=csharp&logoColor=007ACC)
+![.NET](https://img.shields.io/badge/-.-333333?style=flat&logo=dotnet&logoColor=white&label=)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
 ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
