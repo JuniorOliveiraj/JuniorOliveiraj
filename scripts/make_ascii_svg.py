@@ -108,10 +108,8 @@ parts.append(
 parts.append(f'<line x1="0" y1="{TITLEBAR_H}" x2="{CANVAS_W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>')
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
-parts.append(
-    f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" '
-    f'text-anchor="middle">junior@github: ~$ ./portrait.sh</text>'
-)
+parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" '
+             f'text-anchor="middle">junior@github: ~$ ./portrait.sh</text>')
 
 # linhas ASCII com animação de digitação
 font_size = CELL_H * 0.86
@@ -160,10 +158,9 @@ parts.append(
 )
 parts.append(
     f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
-    f'junior@github:~$ whoami '
-    f'<tspan fill="{INK}">Junior Oliveira</tspan></text>'
+    f'junior@github:~$ quem sou <tspan fill="{INK}">Junior Oliveira</tspan></text>'
 )
-status_chars = len("junior@github:~$ whoami Junior Oliveira ")
+status_chars = len("junior@github:~$ quem sou Junior Oliveira ")
 cursor_x = PAD + status_chars * 13 * 0.6
 parts.append(
     f'<rect x="{cursor_x:.1f}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'

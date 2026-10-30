@@ -46,9 +46,11 @@ BAR_STAGGER  = 0.07
 BAR_DUR      = 0.5
 
 
+MONTHS_PT = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"]
+
 def short(d):
     dt = datetime.date.fromisoformat(d)
-    return f"{dt.strftime('%b')} {dt.day}"
+    return f"{MONTHS_PT[dt.month - 1]} {dt.day}"
 
 
 def span(s):
@@ -66,12 +68,12 @@ cur, lng, best = data["current_streak"], data["longest_streak"], data["best_day"
 n_days = len(data["days"])
 
 tiles = [
-    ("current streak", cur["length"],             " days", span(cur),                                     GREEN),
-    ("longest streak", lng["length"],             " days", span(lng),                                     INK),
-    ("contributions",  data["total_contributions"], "",    "in the last year",                            INK),
-    ("active days",    data["active_days"],         "",    f'{data["active_days"]} of {n_days} days',     INK),
-    ("best day",       best["count"],               "",    short(best["date"]),                            INK),
-    ("avg / active",   data["avg_per_active_day"],  "",    "contributions / day",                         INK),
+    ("sequencia atual",   cur["length"],              " dias", span(cur),                                       GREEN),
+    ("maior sequencia",   lng["length"],              " dias", span(lng),                                       INK),
+    ("contribuicoes",     data["total_contributions"], "",     "no ultimo ano",                                 INK),
+    ("dias ativos",       data["active_days"],         "",     f'{data["active_days"]} de {n_days} dias',       INK),
+    ("melhor dia",        best["count"],               "",     short(best["date"]),                              INK),
+    ("media / dia ativo", data["avg_per_active_day"],  "",     "contribuicoes por dia",                         INK),
 ]
 
 parts = []
@@ -104,8 +106,7 @@ for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dot}"/>')
 parts.append(
     f'<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12"'
-    f' text-anchor="middle">junior@github: ~$ ./stats.sh</text>'
-)
+    f' text-anchor="middle">junior@github: ~$ ./stats.sh</text>')
 
 # ── tiles de stats ──────────────────────────────────────────────────────────
 for i, (label, value, suffix, caption, accent) in enumerate(tiles):
@@ -184,7 +185,7 @@ parts.append(
 )
 parts.append(
     f'<text x="{chart_x+24}" y="{CHART_TOP+40}" fill="{MUTED}" font-size="22">'
-    f'$ contributions / month</text>'
+    f'$ contribuicoes / mes</text>'
 )
 parts.append('</g>')
 
@@ -215,7 +216,7 @@ for i, m in enumerate(monthly):
     )
 
     # label do mês
-    mon = datetime.date.fromisoformat(m["month"] + "-01").strftime("%b")[0]
+    mon = MONTHS_PT[datetime.date.fromisoformat(m["month"] + "-01").month - 1][0]
     parts.append(
         f'<text x="{bx + bar_w/2:.1f}" y="{plot_bot + 28}"'
         f' fill="{MUTED}" font-size="18" text-anchor="middle">{mon}</text>'
