@@ -51,7 +51,7 @@ def short(d):
 
 
 def span(s):
-    return f'{short(s["start"])} – {short(s["end"])}' if s["length"] else "—"
+    return f'{short(s["start"])} &ndash; {short(s["end"])}' if s["length"] else "&mdash;"
 
 
 data = json.load(open(SRC))
@@ -153,5 +153,5 @@ for i, m in enumerate(monthly):
 
 parts.append('</svg>')
 svg = "".join(parts)
-open(OUT, "w").write(svg)
+open(OUT, "w", encoding="utf-8").write(svg)
 print(f"wrote {OUT}: {W} x {H}, {len(svg)//1024} KB")
