@@ -1,0 +1,65 @@
+name: Update profile art
+
+# Atualiza o portrait ASCII + stats diariamente com dados reais.
+# A cobrinha é gerada em job separado e publicada no branch output.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # ~06:17 UTC todo dia
+  workflow_dispatch: {}
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+jobs:
+  # ── Job 1: portrait ASCII + stats card ────────────────────────────────────
+  build-art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Gerar portrait ASCII animado
+        run: python scripts/make_ascii_svg.py VERSAO-STAGE.png junior-ascii.svg
+
+      - name: Buscar dados reais de contribuições
+        run: python scripts/fetch_contributions.py
+
+      - name: Gerar card de stats
+        run: python scripts/render_stats_svg.py
+
+      - name: Commit das artes atualizadas
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json stats.svg junior-ascii.svg"
+
+  # ── Job 2: animação da cobrinha ────────────────────────────────────────────
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push cobrinha para branch output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

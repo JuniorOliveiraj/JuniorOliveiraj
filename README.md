@@ -1,59 +1,81 @@
-![](https://komarev.com/ghpvc/?JuniorOliveiraj=iuricode&color=006bed)
+<div align="center">
 
-## Sobre mim
+<!-- animação da cobrinha nos commits — gerada pelo workflow -->
 
-- 🤔 Explorando novas tecnologias e desenvolvendo soluções de software.
-- 🎓 Formado em analyse e desenvolvimento de sistemas.
-- 💼 Trabalhando como full stack developer na Benner Sistemas.
-- 🌱 Aprendendo mais sobre C#, .NET, React e Flutter.
+<h3><code>junior@github ~ $ ./contributions.sh</code></h3>
 
-## Minhas Skills
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake-dark.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake.svg" width="860" />
+</picture>
+
+<br>
+<br>
+
+<!-- portrait ASCII (esquerda) + card de stats (direita) -->
+<!-- portrait gerado por: python scripts/prep_photo.py && python scripts/make_ascii_svg.py -->
+<!-- stats gerado por: python scripts/render_stats_svg.py (mesmo workflow diário) -->
+
+<h3><code>junior@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top"><img src="./junior-ascii.svg" width="420" alt="Junior Oliveira — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Junior Oliveira — GitHub streak e stats" /></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<h3><code>junior@github ~ $ cat about.txt</code></h3>
+
+<p>
+ Explorando novas tecnologias e desenvolvendo soluções de software.<br>
+ Formado em Análise e Desenvolvimento de Sistemas.<br>
+ Full Stack Developer na <b>Wiipo</b>.<br>
+ Aprendendo mais sobre C#, .NET, React e Flutter.
+</p>
+
+<br>
+
+<h3><code>junior@github ~ $ ./skills.sh</code></h3>
 
 **Aplicações e dados**
 
-![C#](https://img.shields.io/badge/-C%23-333333?style=flat&logo=csharp&logoColor=007ACC)
-![.NET](https://img.shields.io/badge/-.-333333?style=flat&logo=dotnet&logoColor=white&label=)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter)
-![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+![C#](https://img.shields.io/badge/-C%23-0d1117?style=for-the-badge&logo=csharp&logoColor=007ACC)
+![.NET](https://img.shields.io/badge/-.NET-0d1117?style=for-the-badge&logo=dotnet&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-0d1117?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-0d1117?style=for-the-badge&logo=HTML5)
+![CSS3](https://img.shields.io/badge/-CSS3-0d1117?style=for-the-badge&logo=CSS3&logoColor=1572B6)
+![React](https://img.shields.io/badge/-React-0d1117?style=for-the-badge&logo=react)
+![Flutter](https://img.shields.io/badge/-Flutter-0d1117?style=for-the-badge&logo=Flutter)
+![MySQL](https://img.shields.io/badge/-MySQL-0d1117?style=for-the-badge&logo=mysql)
 
-**Utilidades**
+**DevOps & Ferramentas**
 
-![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
-![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
+![Git](https://img.shields.io/badge/-Git-0d1117?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-0d1117?style=for-the-badge&logo=github)
+![Docker](https://img.shields.io/badge/-Docker-0d1117?style=for-the-badge&logo=docker)
+![Postman](https://img.shields.io/badge/-Postman-0d1117?style=for-the-badge&logo=postman)
+![VS Code](https://img.shields.io/badge/-VS%20Code-0d1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-0d1117?style=for-the-badge&logo=visual-studio&logoColor=5C2D91)
+![Figma](https://img.shields.io/badge/-Figma-0d1117?style=for-the-badge&logo=figma&logoColor=F24E1E)
 
-**DevOps**
+<br>
 
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
-![Travis](https://img.shields.io/badge/-Travis-333333?style=flat&logo=travis)
+<h3><code>junior@github ~ $ ./links.sh</code></h3>
 
-**Ferramentas de desenvolvimento**
+<p><b>Full Stack Developer · .NET · React · Flutter</b></p>
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![Visual Studio](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
-![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
-![Adobe XD](https://img.shields.io/badge/-Adobe%20XD-333333?style=flat&logo=adobe-xd&logoColor=007ACC)
+[![Portfolio](https://img.shields.io/badge/Portfolio-juniorbelem.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.juniorbelem.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Junior%20Oliveira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junior-oliveira-ba22381a3/)
+[![Gmail](https://img.shields.io/badge/Gmail-junioroliveira.belem%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:junioroliveira.belem@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-JuniorOliveiraj-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JuniorOliveiraj)
 
-<br/>
+![Profile Views](https://komarev.com/ghpvc/?username=JuniorOliveiraj&color=39d353&style=for-the-badge&label=PROFILE+VIEWS)
 
+<br>
 
-
-## Onde me encontrar
-
-[![Linkedin](https://img.shields.io/badge/-Junior%20Oliveira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=JuniorOliveiraj)](https://www.linkedin.com/in/junior-oliveira-ba22381a3/)
-[![Gmail Badge](https://img.shields.io/badge/-junioroliveira.belem@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:junioroliveira.belem@gmail.com)
-[![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/JuniorOliveiraj)
-
-
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake-dark.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/JuniorOliveiraj/JuniorOliveiraj/output/github-contribution-grid-snake.svg">
-</picture>
-
-
+</div>
